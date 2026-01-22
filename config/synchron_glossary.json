@@ -1,0 +1,19 @@
+{
+  "system": "Synchron OS project A",
+  "acronym_def": "OS = Operating System",
+  "architecture": "Tiangan",
+  "github_org": "https://github.com/synchronorg",
+  "terms": {
+    "adminp": "The primary human administrator (dbugproductions). Bound by BIBA protocols.",
+    "admins": "The primary AI orchestration administrator (synchron). Bound by BIBA protocols.",
+    "seed_module": "The genesis repository (Suffix 0) that defines the system baseline.",
+    "branch_module": "A self-contained functional repository (db{suffix}) developed in isolation for eventual merge.",
+    "merged_module": "The unified system repository within synchronorg that combines multiple branches.",
+    "local_orchestration": "Management of module settings strictly within the local db{suffix} folder.",
+    "seed_immutability": "Suffix 0 is the unique, unchangeable baseline.",
+    "collision_avoidance": "Architectural principle ensuring branch_modules do not modify root-level system files.",
+    "bugsarefree": "The core protocol signature."
+  },
+  "version": "1.30",
+  "last_update": "2026-01-18T23:45:00Z"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "synchron0_2026-01-18_23-45-00Z_dbugproductions",
+  "description": "Core kernel seed_module. Tiangan decentralized architecture v0.2.8 active.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

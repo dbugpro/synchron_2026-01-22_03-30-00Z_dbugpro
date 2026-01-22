@@ -1,0 +1,7 @@
+{
+  "name": "synchron_2026-01-22_03-30-00Z_dbugpro",
+  "description": "5. An example of the seed + branch modules (now merged)",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

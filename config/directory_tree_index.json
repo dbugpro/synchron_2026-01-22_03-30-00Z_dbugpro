@@ -1,0 +1,179 @@
+{
+  "generated_at": "2026-01-19T00:15:00Z",
+  "signature": "bugsarefree",
+  "tree": {
+    "name": "SYNCHRON-OS-A",
+    "type": "folder",
+    "children": [
+      { "name": "index.tsx", "type": "file", "status": "synced" },
+      { "name": "metadata.json", "type": "file", "status": "synced" },
+      { "name": "index.html", "type": "file", "status": "synced" },
+      { "name": "types.ts", "type": "file", "status": "synced" },
+      { "name": "README.md", "type": "file", "status": "synced" },
+      {
+        "name": "config",
+        "type": "folder",
+        "children": [
+          { "name": "synchron_config.json", "type": "file", "status": "synced" },
+          { "name": "synchron_glossary.json", "type": "file", "status": "synced" },
+          { "name": "tiangan_suffix_manifest.csv", "type": "file", "status": "synced" },
+          { "name": "merge_protocol.md", "type": "file", "status": "synced" },
+          { "name": "metadata.json", "type": "file", "status": "synced" },
+          { "name": "cli_handbook.md", "type": "file", "status": "synced" },
+          { "name": "cli_commands_index.json", "type": "file", "status": "synced" },
+          { "name": "bugworld_cheat_sheet.md", "type": "file", "status": "synced" },
+          { "name": "directory_tree_index.json", "type": "file", "status": "synced" }
+        ]
+      },
+      {
+        "name": "db",
+        "type": "folder",
+        "children": [
+          { "name": "protools_index.json", "type": "file", "status": "synced" },
+          {
+            "name": "dashboard",
+            "type": "folder",
+            "children": [
+              { "name": "README.md", "type": "file", "status": "synced" },
+              { "name": "DashboardView.tsx", "type": "file", "status": "synced" },
+              { "name": "index.html", "type": "file", "status": "synced" },
+              { "name": "index.tsx", "type": "file", "status": "synced" },
+              { "name": "types.ts", "type": "file", "status": "synced" },
+              {
+                "name": "components",
+                "type": "folder",
+                "children": [
+                  { "name": "App.tsx", "type": "file", "status": "synced" },
+                  { "name": "LibraryView.tsx", "type": "file", "status": "synced" },
+                  { "name": "ModuleRegistry.tsx", "type": "file", "status": "synced" },
+                  { "name": "ProjectManifest.tsx", "type": "file", "status": "synced" },
+                  { "name": "PulseRing.tsx", "type": "file", "status": "synced" },
+                  { "name": "SessionLog.tsx", "type": "file", "status": "synced" },
+                  { "name": "SyncTimeline.tsx", "type": "file", "status": "synced" },
+                  { "name": "CheatSheetView.tsx", "type": "file", "status": "synced" },
+                  { "name": "MirrorExportView.tsx", "type": "file", "status": "synced" },
+                  { "name": "DirectoryTreeView.tsx", "type": "file", "status": "synced" }
+                ]
+              },
+              {
+                "name": "services",
+                "type": "folder",
+                "children": [
+                  { "name": "geminiService.ts", "type": "file", "status": "synced" }
+                ]
+              },
+              {
+                "name": "session_logs",
+                "type": "folder",
+                "children": [
+                  { "name": "session_audit.json", "type": "file", "status": "synced" },
+                  { "name": "README.md", "type": "file", "status": "synced" }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "workspace",
+            "type": "folder",
+            "children": [
+              {
+                "name": "protools",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "scripts",
+                    "type": "folder",
+                    "children": [
+                      {
+                        "name": "py",
+                        "type": "folder",
+                        "children": [
+                          { "name": "system_index_builder.py", "type": "file", "status": "synced" },
+                          { "name": "merge_protocol_builder.py", "type": "file", "status": "synced" },
+                          { "name": "system_dashboard_builder.py", "type": "file", "status": "synced" },
+                          { "name": "new_module_builder.py", "type": "file", "status": "synced" },
+                          { "name": "module_remover.py", "type": "file", "status": "synced" },
+                          { "name": "session_closer.py", "type": "file", "status": "synced" }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "db0",
+        "type": "folder",
+        "children": [
+          { "name": "README.md", "type": "file", "status": "synced" },
+          {
+            "name": "workspace",
+            "type": "folder",
+            "children": [
+              {
+                "name": "dbugtools",
+                "type": "folder",
+                "children": [
+                  {
+                    "name": "scripts",
+                    "type": "folder",
+                    "children": [
+                      {
+                        "name": "py",
+                        "type": "folder",
+                        "children": [
+                          { "name": "synchron_config_builder.py", "type": "file", "status": "synced" },
+                          { "name": "dbugtools_index_builder.py", "type": "file", "status": "synced" },
+                          { "name": "synchron_glossary_builder.py", "type": "file", "status": "synced" },
+                          { "name": "session_log_builder.py", "type": "file", "status": "synced" },
+                          { "name": "tiangan_suffix_manifest_builder.py", "type": "file", "status": "synced" },
+                          { "name": "integrity_checker.py", "type": "file", "status": "synced" },
+                          { "name": "role_manager.py", "type": "file", "status": "synced" },
+                          { "name": "registry_refresher.py", "type": "file", "status": "synced" },
+                          { "name": "bugworld_cheat_sheet_builder.py", "type": "file", "status": "synced" },
+                          { "name": "cli_commands_index_builder.py", "type": "file", "status": "synced" },
+                          { "name": "bugworld_directory_builder.py", "type": "file", "status": "synced" },
+                          { "name": "html_frame_builder.py", "type": "file", "status": "synced" }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "db00",
+        "type": "folder",
+        "children": [
+          {
+            "name": "config",
+            "type": "folder",
+            "children": [
+              { "name": "module_config.json", "type": "file", "status": "synced" }
+            ]
+          },
+          {
+            "name": "workspace",
+            "type": "folder",
+            "children": [
+              {
+                "name": "dbug_toolkit",
+                "type": "folder",
+                "children": [
+                  { "name": "core.py", "type": "file", "status": "synced" }
+                ]
+              }
+            ]
+          },
+          { "name": "README.md", "type": "file", "status": "synced" }
+        ]
+      }
+    ]
+  }
+}
